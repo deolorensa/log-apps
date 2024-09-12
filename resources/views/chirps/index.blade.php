@@ -99,7 +99,9 @@
                                         </x-dropdown>
                                     @endif
                                 </div>
-                                <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                <div class="max-w-[335px]">
+                                    <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                </div>
                                 <div class="flex justify-between items-center mt-4">
                                     <ol class="flex justify-end items-center w-full p-3 space-x-2 text-[11px] font-medium text-center text-gray-500 bg-white">
                                         <li class="flex items-center text-blue-600">
@@ -223,7 +225,9 @@
                                         </x-dropdown>
                                     @endif
                                 </div>
-                                <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                <div class="max-w-[335px]">
+                                    <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                </div>
                                 <div class="flex justify-between items-center mt-4">
                                     <ol class="flex justify-end items-center w-full p-3 space-x-2 text-[11px] font-medium text-center text-gray-500 bg-white">
                                         <li class="flex items-center text-blue-600">
@@ -347,7 +351,9 @@
                                         </x-dropdown>
                                     @endif
                                 </div>
-                                <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                <div class="max-w-[335px]">
+                                    <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                </div>
                                 <div class="flex justify-between items-center mt-4">
                                     <ol class="flex justify-end items-center w-full p-3 space-x-2 text-[11px] font-medium text-center text-gray-500 bg-white">
                                         <li class="flex items-center text-blue-600">
@@ -471,7 +477,9 @@
                                         </x-dropdown>
                                     @endif
                                 </div>
-                                <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                <div class="max-w-[335px]">
+                                    <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                                </div>
                                 <div class="flex justify-between items-center mt-4">
                                     <ol class="flex justify-end items-center w-full p-3 space-x-2 text-[11px] font-medium text-center text-gray-500 bg-white">
                                         <li class="flex items-center text-blue-600">
